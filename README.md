@@ -1,6 +1,6 @@
 DigSafe MQP Testing Notes
 =====================================================================
-A few commands that were handy when testing the GPS:
+A few commands that were handy when testing with the SparkFun GPS-RTK2 Board - ZED-F9P.
 
 Check serial status: 
 
