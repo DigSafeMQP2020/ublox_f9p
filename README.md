@@ -1,3 +1,15 @@
+DigSafe MQP Testing Notes
+=====================================================================
+A few commands that were handy when testing the GPS:
+
+Check serial status: 
+
+  `stty < /dev/tty<portHere>`  (GPS port is ttyACM0)
+  
+See serial input: 
+
+  `cat /dev/tty<portHere>`
+
 # ROS driver for ublox ZED-F9P receiver
 
 This is for the ArduSimple ZED-F9P boards. (Mainly affects which port on the board is being used.) I am connecting the F9P board to a Linux laptop with USB cable. (MovingBaseline requires connecting a single wire between two receiver boards.)
@@ -33,4 +45,3 @@ zed-f9p.yaml (only for seting up device connection and published messages)
 ## Launch
 
 ```roslaunch ublox_gps ublox_zed-f9p.launch```
-
